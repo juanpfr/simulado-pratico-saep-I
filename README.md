@@ -1,73 +1,77 @@
-# Welcome to your Lovable project
+# 🧰 Sistema de Gestão de Estoque
 
-## Project info
+## 📋 Descrição do Projeto
+Este projeto foi desenvolvido na plataforma **Lovable AI** para resolver problemas de controle de estoque enfrentados por uma fabricante de ferramentas e equipamentos manuais.  
+O sistema permite o **cadastro de produtos**, **registro de entradas e saídas**, e **monitoramento automático do nível de estoque mínimo**, emitindo alertas quando um item está abaixo do limite configurado.  
 
-**URL**: https://lovable.dev/projects/188f0a32-c0a2-417a-a08c-bc0b4c8cc305
+O objetivo é oferecer uma **solução web moderna e responsiva**, garantindo **organização**, **rastreabilidade** e **eficiência** na gestão de materiais.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🌐 Projeto Lovable
+🔗 **URL do Projeto:** [Acesse aqui](https://lovable.dev/projects/188f0a32-c0a2-417a-a08c-bc0b4c8cc305)
 
-**Use Lovable**
+Este sistema foi criado e pode ser modificado diretamente na plataforma **Lovable**, com commits automáticos no repositório GitHub.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/188f0a32-c0a2-417a-a08c-bc0b4c8cc305) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Funcionalidades
+- Login e autenticação de usuários (almoxarifes);
+- CRUD completo de produtos (criar, visualizar, editar e excluir);
+- Registro de movimentações de estoque (entrada e saída);
+- Atualização automática de quantidades em estoque;
+- Alertas automáticos para estoque mínimo;
+- Histórico completo de movimentações (data, tipo, quantidade e responsável);
+- Painel web simples e responsivo.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🧱 Tecnologias Utilizadas
+- **Frontend:** React + TypeScript + Vite  
+- **Estilo:** Tailwind CSS + shadcn/ui  
+- **Backend / API:** Node.js (ou integração Lovable API)  
+- **Banco de Dados:** PostgreSQL  
+- **Gerenciamento:** Lovable AI com commits automáticos no GitHub
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## ⚙️ Como Executar Localmente
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# Clone o repositório
+git clone <SEU_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Acesse a pasta do projeto
+cd <NOME_DO_PROJETO>
 
-# Step 3: Install the necessary dependencies.
+# Instale as dependências
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+A aplicação ficará disponível em:  
+👉 `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 👨‍💻 Desenvolvedores
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Juan**  
+  GitHub: [https://github.com/juanpfr](https://github.com/juanpfr)
 
-## What technologies are used for this project?
+- **Bruno**  
+  GitHub: [https://github.com/br7trindade](https://github.com/br7trindade)
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🧾 Licença
+Este projeto foi desenvolvido para fins educacionais e pode ser adaptado livremente.  
+Criado com ❤️ por **Juan** e **Bruno**.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/188f0a32-c0a2-417a-a08c-bc0b4c8cc305) and click on Share -> Publish.
+## 📦 Projeto original Lovable
+Baseado no template React + Vite + Tailwind da plataforma [Lovable](https://lovable.dev/).
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
