@@ -39,10 +39,10 @@ Este sistema foi criado e pode ser modificado diretamente na plataforma **Lovabl
 
 ```bash
 # Clone o repositório
-git clone <SEU_GIT_URL>
+git clone https://github.com/juanpfr/simulado-pratico-saep-I/
 
 # Acesse a pasta do projeto
-cd <NOME_DO_PROJETO>
+cd simulado-pratico-saep-I
 
 # Instale as dependências
 npm i
